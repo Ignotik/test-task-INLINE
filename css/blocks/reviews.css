@@ -1,0 +1,46 @@
+.reviews {
+    max-width: 1066px;
+    margin: 49px auto 0;
+}
+
+.reviews__description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    max-width: 523px;
+}
+
+.reviews__button {
+    padding: 10px 18px;
+    margin-top: 33px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    background: rgba(66, 159, 58, 1);
+}
+
+/* Адаптивность */
+
+@media (max-width:376px) {
+    .reviews {
+        max-width: 334px;
+        margin: 24px auto 0;
+    }
+
+    .reviews div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reviews__button {
+        margin-top: 32px;
+    }
+}

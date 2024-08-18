@@ -1,0 +1,23 @@
+.header {
+    max-width: 1440px;
+    margin: 16px auto 0;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Адаптивность */
+
+@media (max-width: 376px) {
+    .main {
+        max-width: 375px;
+        margin: 0 auto 0;
+    }
+
+    .header {
+        max-width: 375px;
+        margin: 16px auto 0;
+    }
+}

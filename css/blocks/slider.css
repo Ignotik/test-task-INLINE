@@ -1,0 +1,13 @@
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1066px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 200px;
+}
+
+.swiper-slider {
+    max-width: 250px;
+    width: 100%;
+}

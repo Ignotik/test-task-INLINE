@@ -1,0 +1,10 @@
+/* global */
+@import "./global/containers.css";
+/* blocks */
+@import "./blocks/nav.css";
+@import "./blocks/description.css";
+@import "./blocks/specifications.css";
+@import "./blocks/reviews.css";
+@import "./blocks/source.css";
+@import "./blocks/slider.css";
+@import "./blocks/products.css";
